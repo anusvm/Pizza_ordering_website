@@ -4,7 +4,7 @@ const db = mysql.createConnection({
     host: "database-1.cl6oe4q0sod0.ap-south-1.rds.amazonaws.com", // RDS Endpoint
     user: "admin", // RDS Username
     password: "anupriya2003", // RDS Password
-    database: "userscart", // Your database name in RDS
+    database: "database-1", // Your database name in RDS
     multipleStatements: true
 });
 
